@@ -1,0 +1,14 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let friends of friendData">
+            <td>{{friends.firstName}}</td>
+            <td>{{friends.lastName}}</td>
+        </tr>
+    </tbody>
+</table>
